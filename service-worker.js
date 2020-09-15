@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Single-price-grid-component/precache-manifest.56feba2b160266be8a9b62b611685916.js"
+  "/Single-price-grid-component/precache-manifest.2d067276d337b921efe266f422168351.js"
 );
 
 self.addEventListener('message', (event) => {
