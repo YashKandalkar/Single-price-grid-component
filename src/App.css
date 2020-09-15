@@ -1,0 +1,18 @@
+.App{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.mainTitle{
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 480px) {
+  .mainTitle{
+      font-size: 1.8em;
+  }
+}
