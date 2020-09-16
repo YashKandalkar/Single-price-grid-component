@@ -51,7 +51,20 @@
 }
 
 @media only screen and (max-width: 480px) {
-    html{
-        font-size: 0.8em;
+    .container{
+        max-width: 65vw;
+        margin: 1.5rem 0;
+    }
+    .bottomContainer{
+        flex-direction: column;
+    }
+    .bottomChild{
+        width: initial;
+    }
+    .leftChild{
+        border-radius: 0;
+    }
+    .rightChild{
+        border-radius: 0 0 8px 8px;
     }
 }
